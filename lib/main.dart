@@ -97,7 +97,7 @@ class Container2 extends StatelessWidget {
 
         AnimatedContainer(
           width: MediaQuery.of(context).size.width,
-          duration: Duration(milliseconds: 300),
+          duration: const Duration(milliseconds: 300),
           color: Colors.pink,
           margin: EdgeInsets.all(16),
           padding: EdgeInsets.all(16),
@@ -105,11 +105,11 @@ class Container2 extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
 
-              SizedBox(
+              const SizedBox(
                 height: 52,
               ),
               AnimatedContainer(
-                duration: Duration(milliseconds: 300),
+                duration: const Duration(milliseconds: 300),
                 width: MediaQuery.of(context).size.width * 0.9,
                 height: 36,
                 color: Colors.grey,
@@ -120,7 +120,7 @@ class Container2 extends StatelessWidget {
         Align(
           alignment: Alignment.center,
           child: AnimatedContainer(
-            duration: Duration(milliseconds: 300),
+            duration: const Duration(milliseconds: 300),
             height: 36,
             width: MediaQuery.of(context).size.width * 0.4,
             color: Colors.grey,
